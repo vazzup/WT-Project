@@ -1,0 +1,481 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 1400px;
+	 height: 5000px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1400px;
+	 height: 5000px;
+	 z-index:1;
+} 
+
+ #Layer1 
+{ 
+	 left: 207px; 
+	 top: -157px; 
+	 position: absolute; 
+	 width: 1377px;
+	 height: 642px;
+	 z-index:2;
+} 
+
+ #homescreentitlebackg 
+{ 
+	 left: 11px; 
+	 top: 125px; 
+	 position: absolute; 
+	 width: 1379px;
+	 height: 657px;
+	 z-index:3;
+} 
+
+ #titleimage 
+{ 
+	 left: 682px; 
+	 top: 133px; 
+	 position: absolute; 
+	 width: 622px;
+	 height: 434px;
+	 z-index:4;
+} 
+
+ #VALARMORGH 
+{ 
+	 left: 790px; 
+	 top: 640px; 
+	 position: absolute; 
+	 width: 380px;
+	 height: 16px;
+	 z-index:5;
+} 
+
+ #logopanelbackground3 
+{ 
+	 left: -1px; 
+	 top: 433px; 
+	 position: absolute; 
+	 width: 426px;
+	 height: 182px;
+	 z-index:6;
+} 
+
+ #logoimage 
+{ 
+	 left: 250px; 
+	 top: 449px; 
+	 position: absolute; 
+	 width: 138px;
+	 height: 132px;
+	 z-index:7;
+} 
+
+ #Layer8 
+{ 
+	 left: 1224px; 
+	 top: 736px; 
+	 position: absolute; 
+	 width: 15px;
+	 height: 15px;
+	 z-index:8;
+} 
+
+ #Layer8copy 
+{ 
+	 left: 1253px; 
+	 top: 736px; 
+	 position: absolute; 
+	 width: 15px;
+	 height: 15px;
+	 z-index:9;
+} 
+
+ #Layer8copy2 
+{ 
+	 left: 1283px; 
+	 top: 736px; 
+	 position: absolute; 
+	 width: 15px;
+	 height: 15px;
+	 z-index:10;
+} 
+
+ #Layer8copy3 
+{ 
+	 left: 1313px; 
+	 top: 736px; 
+	 position: absolute; 
+	 width: 15px;
+	 height: 15px;
+	 z-index:11;
+} 
+
+ #LOGONAME 
+{ 
+	 left: 104px; 
+	 top: 486px; 
+	 position: absolute; 
+	 width: 90px;
+	 height: 68px;
+	 z-index:12;
+} 
+
+ #Layer5 
+{ 
+	 left: 12px; 
+	 top: 793px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 452px;
+	 z-index:13;
+} 
+
+ #SEASON 
+{ 
+	 left: 351px; 
+	 top: 1115px; 
+	 position: absolute; 
+	 width: 73px;
+	 height: 22px;
+	 z-index:14;
+} 
+
+ #layer_01 
+{ 
+	 left: 352px; 
+	 top: 1139px; 
+	 position: absolute; 
+	 width: 62px;
+	 height: 72px;
+	 z-index:15;
+} 
+
+ #Layer5_0 
+{ 
+	 left: 474px; 
+	 top: 1256px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 450px;
+	 z-index:16;
+} 
+
+ #SEASON_0 
+{ 
+	 left: 813px; 
+	 top: 1577px; 
+	 position: absolute; 
+	 width: 72px;
+	 height: 22px;
+	 z-index:17;
+} 
+
+ #layer_05 
+{ 
+	 left: 814px; 
+	 top: 1602px; 
+	 position: absolute; 
+	 width: 72px;
+	 height: 72px;
+	 z-index:18;
+} 
+
+ #Layer5_1 
+{ 
+	 left: 936px; 
+	 top: 792px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 452px;
+	 z-index:19;
+} 
+
+ #SEASON_1 
+{ 
+	 left: 1276px; 
+	 top: 1114px; 
+	 position: absolute; 
+	 width: 72px;
+	 height: 22px;
+	 z-index:20;
+} 
+
+ #layer_03 
+{ 
+	 left: 1277px; 
+	 top: 1138px; 
+	 position: absolute; 
+	 width: 72px;
+	 height: 72px;
+	 z-index:21;
+} 
+
+ #Layer5_2 
+{ 
+	 left: 12px; 
+	 top: 1718px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 452px;
+	 z-index:22;
+} 
+
+ #EPISODE 
+{ 
+	 left: 351px; 
+	 top: 2033px; 
+	 position: absolute; 
+	 width: 78px;
+	 height: 22px;
+	 z-index:23;
+} 
+
+ #layer_03_0 
+{ 
+	 left: 353px; 
+	 top: 2064px; 
+	 position: absolute; 
+	 width: 72px;
+	 height: 72px;
+	 z-index:24;
+} 
+
+ #Layer5_3 
+{ 
+	 left: 938px; 
+	 top: 1718px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 452px;
+	 z-index:25;
+} 
+
+ #EPISODE_0 
+{ 
+	 left: 1277px; 
+	 top: 2033px; 
+	 position: absolute; 
+	 width: 78px;
+	 height: 22px;
+	 z-index:26;
+} 
+
+ #layer_10 
+{ 
+	 left: 1284px; 
+	 top: 2064px; 
+	 position: absolute; 
+	 width: 67px;
+	 height: 72px;
+	 z-index:27;
+} 
+
+ #Layer5_4 
+{ 
+	 left: 937px; 
+	 top: 1255px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 450px;
+	 z-index:28;
+} 
+
+ #SEASON_2 
+{ 
+	 left: 1277px; 
+	 top: 1576px; 
+	 position: absolute; 
+	 width: 72px;
+	 height: 22px;
+	 z-index:29;
+} 
+
+ #layer_06 
+{ 
+	 left: 1278px; 
+	 top: 1601px; 
+	 position: absolute; 
+	 width: 73px;
+	 height: 72px;
+	 z-index:30;
+} 
+
+ #NAME 
+{ 
+	 left: 474px; 
+	 top: 793px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 452px;
+	 z-index:31;
+} 
+
+ #Layer6 
+{ 
+	 left: 533px; 
+	 top: 1014px; 
+	 position: absolute; 
+	 width: 353px;
+	 height: 152px;
+	 z-index:32;
+} 
+
+ #layer_02 
+{ 
+	 left: 474px; 
+	 top: 793px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 452px;
+	 z-index:33;
+} 
+
+ #HOUND 
+{ 
+	 left: 475px; 
+	 top: 1718px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 452px;
+	 z-index:34;
+} 
+
+ #Layer9 
+{ 
+	 left: 502px; 
+	 top: 1890px; 
+	 position: absolute; 
+	 width: 412px;
+	 height: 201px;
+	 z-index:35;
+} 
+
+ #06copy2 
+{ 
+	 left: 475px; 
+	 top: 1718px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 452px;
+	 z-index:36;
+} 
+
+ #SHAME 
+{ 
+	 left: 12px; 
+	 top: 1256px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 450px;
+	 z-index:37;
+} 
+
+ #Layer7 
+{ 
+	 left: 64px; 
+	 top: 1391px; 
+	 position: absolute; 
+	 width: 320px;
+	 height: 259px;
+	 z-index:38;
+} 
+
+ #layer_04 
+{ 
+	 left: 12px; 
+	 top: 1256px; 
+	 position: absolute; 
+	 width: 452px;
+	 height: 450px;
+	 z-index:39;
+} 
+
+ #Layer2 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 1400px;
+	 height: 114px;
+	 z-index:40;
+} 
+
+ #HOME 
+{ 
+	 left: 388px; 
+	 top: 61px; 
+	 position: absolute; 
+	 width: 61px;
+	 height: 12px;
+	 z-index:41;
+    visibility: hidden;
+} 
+
+ #HOUSES 
+{ 
+	 left: 504px; 
+	 top: 62px; 
+	 position: absolute; 
+	 width: 86px;
+	 height: 12px;
+	 z-index:42;
+    visibility: hidden;
+} 
+
+ #MAP 
+{ 
+	 left: 646px; 
+	 top: 62px; 
+	 position: absolute; 
+	 width: 44px;
+	 height: 12px;
+	 z-index:43;
+    visibility: hidden;
+} 
+
+ #EPISODES 
+{ 
+	 left: 740px; 
+	 top: 62px; 
+	 position: absolute; 
+	 width: 106px;
+	 height: 12px;
+	 z-index:44;
+    visibility: hidden;
+} 
+
+ #CHARACTERS 
+{ 
+	 left: 886px; 
+	 top: 62px; 
+	 position: absolute; 
+	 width: 142px;
+	 height: 12px;
+	 z-index:45;
+    visibility: hidden;
+} 
+
+.headertags
+{
+    color: #fff;
+    height: 12px;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute;
+    z-index: 100;
+}
