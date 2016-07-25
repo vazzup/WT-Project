@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<title>psdtowebmapfinal.psd</title>
+		<link href="styles.css" rel="stylesheet" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+     <script src="js/jquery.stellar.js"></script>
+    <script src="js/scrip.js"></script>
+  <script src="jquery.nicescroll.js"></script>
+       <script>
+        $(document).ready(
+
+  function() { 
+
+    $("html").niceScroll();
+
+  }
+
+);
+        </script>
+        <script type="text/javascript">
+if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
+window.onmousewheel = document.onmousewheel = wheel;
+ 
+ 
+var time = 400;
+var distance = 100;
+ 
+ 
+function wheel(event) {
+    if (event.wheelDelta) delta = event.wheelDelta / 120;
+    else if (event.detail) delta = -event.detail / 3;
+ 
+ 
+    handle();
+    if (event.preventDefault) event.preventDefault();
+    event.returnValue = false;
+}
+ 
+ 
+function handle() {
+ 
+ 
+    $('html, body').stop().animate({
+        scrollTop: $(window).scrollTop() - (distance * delta)
+    }, time);
+}
+ 
+ 
+ 
+ 
+$(document).keydown(function (e) {
+ 
+ 
+    switch (e.which) {
+        //up
+        case 38:
+            $('html, body').stop().animate({
+                scrollTop: $(window).scrollTop() - distance
+            }, time);
+            break;
+ 
+ 
+            //down
+        case 40:
+            $('html, body').stop().animate({
+                scrollTop: $(window).scrollTop() + distance
+            }, time);
+            break;
+    }
+});
+         
+</script>
+
+	</head>
+	<body>
+		<div id="background">
+			<div id="GradientMap1" data-0="top: -100px; left: -1000px;  "  data-800="top: 0px; left: 0px; " data-1400="top: -800px; left: -370px; "  data-1500="top: -800px; left: -370px; "  data-1800="top: -620px; left: -10px; "  data-2200="top: -700px; left: 0px; "  data-2600=" top: -580px; left: -1050px; "  data-3000="top: -100px; left: -1400px; " data-3400="top: 620px; left: -1180px; "  data-3600="top: 1030px; left: -280px; "  ><img src="images/GradientMap1.png" data-0="width: 120%;" data-800="width: 55%;" data-1400="width: 120%;" data-3600="width:120%;"  ></div> 
+			<div id="kingslandings"><img src="images/kingslandings.png" data-0="visibility:hidden;" data-2600="left: 670px; top: 2653px; width: 354px; height: auto; visibility: visible;" data-3000="left: 320px; top: 3133px; width: 354px; height: auto; visibility: visible;" data-3001=" visibility: hidden;" id="kingslandings"></div>
+			
+            <div id="highgarten"><img src="images/highgarten.png"  data-0="visibility: hidden;" data-3600="visibility: visible; left: 668px; top: 3817px;"></div>
+			
+            <div ><img src="images/casterlyRockcopy.png" data-0="visibility: hidden;" data-2200="left: 525px; top: 2210px; width: 274px; height: auto; visibility: visible;" data-2600="left: -525px; top: 2330px; width: 274px; height: auto; visibility: visible;" data-2905=" visibility: hidden;" id="casterlyRockcopy"></div>
+			
+            <div >   <img src="images/wall.png" id="wall" data-0="left: 397px; top: 50px; width: 471px; height:auto;   visibility: visible;" data-5=" visibility: hidden; "></div>
+			
+            <div id="castleblack" ><img src="images/castleblack.png"></div>
+			
+            <div ><img src="images/thetwins.png" id="thetwins"  data-0="visibility:hidden;" data-1400="left: 774px; top: 1652px; width: 180px; height: auto; visibility: visible;" data-1500=" visibility: hidden; "></div>
+			<div id="sunspearcopy"><img src="images/sunspearcopy.png"></div>
+			
+            <div  ><img src="images/dragonstonecopy2.png" data-0="visibility:hidden;" data-3000="visibility:visible; left:785px; top:3204px;" data-3400="left: 1005px; top:3924px;" data-3402="visibility:hidden;" id="dragonstonecopy2"></div>
+			
+            <div ><img src="images/pykecopy.png"  data-0="visibility:hidden;" data-1800="left: 334px; top: 2010px; width: 324px; height: auto; visibility: visible;" data-2200="left: 344px; top: 1930px; width: 324px; height: auto; visibility: visible;" data-2210=" visibility: hidden;" id="pykecopy"></div>
+			
+            <div ><img src="images/harrenhal.png" data-0="visibility:hidden;" data-3400="visibility:visible; left: 196px; top:3617px;" data-3600="left: 1096px; top: 4027px;" data-3602="visibility:hidden;" id="harrenhal"></div>
+			
+            <div><img src="images/reverruncopy.png" data-0="visibility:hidden;" data-3600="visibility: visible; top: 3800px; left: 668px;"   id="reverruncopy"></div>
+           
+            <div class="detailspane1" data-0="height:100%;" data-20="height :100%;" data-100="height :0%;" data-1200="height:0%;" data-1350="height: 88%;"  data-1500="height:88%;" data-1550="height:0%;" data-2510="height:0%;"  data-2570="height:100%;" data-2690="height:100%;" data-2720="height:0%;" data-2720="height:0%;" data-2900="height:0%;" data-2990="height:100%;" data-3080="height:100%;" data-3120="height:0%;" data-3490="height:0%;" data-3590="height:100%;" data-3700="height:100%;" data-3740="height:0%;"></div>
+             
+            <div class="detailspane2" data-0="height:0%;" data-1600="height :0%;" data-1750="height :88%;" data-1880="height:88%;" data-1950="height:0%;" data-2000="height:0%;" data-2190="height:100%;" data-2300="height:100%;" data-2350="height:0%;" data-3250="height:0%;" data-3390="height:100%;" data-3500="height:100%;"  data-3520="height:0%;"></div>
+           
+            <div class="divider2" data-0="visibility:hidden;" data-1750="visibility:visible;" data-1900="visibility:hidden;" data-2200="visibility:visible;" data-2300="visibility:hidden;"   data-3400="visibility:visible;" data-3500="visibility:hidden;" ></div>
+           
+            <div class="divider1" data-0="visibility:visible;" data-20="visibility:visible;" data-22="visibility: hidden;" data-1350="visibility:visible;" data-1500="visibility: hidden;" data-2600="visibility:visible;" data-2700="visibility:hidden;"  data-3000="visibility:visible;"  data-3100="visibility:hidden;"  data-3600="visibility: visible;" data-3700="visibility: hidden;" ></div>
+            
+            <div id="walltext"  data-0="visibility:visible;" data-20="visibility:visible;" data-22="visibility: hidden;">
+                <div  class="heading" id="wallheading" >the wall</div>
+                <div class="paragraph" id="wallparagraph">The Wall is a colossal fortification which stretches for 100 leagues (300 miles) along the northern border of the Seven Kingdoms, defending the realm from the wildlings who live beyond. The Wall is reported to be over 700 feet tall and is made of solid ice. It was supposedly constructed using both magic and mundane means some eight millennia ago, in the aftermath of the Long Night to defend the realm against the White Walkers who apparently dwell in the far north, though they are now considered myths by most.</div>
+            </div>
+           
+            <div id="twinstext" data-0="visibility:hidden;" data-1400="visibility:visible;" data-1500="visibility: hidden;">
+            <div  class="heading" id="twinsheading">the twins</div>
+            <div class="paragraph" id="twinsparagraph">The Twins, sometimes known as The Crossing, is a castle in the Riverlands. It is the seat of House Frey, a vassal house of House Tully of Riverrun. It consists of two near-identical towers and a fortified bridge over the Green Fork of the River Trident.</div>   
+                
+            </div>
+            
+            <div id="pyketext" data-0="visibility:hidden;" data-1800="visibility:visible;" data-1900="visibility: hidden;">
+            <div  class="heading2" id="pykeheading">pyke</div>
+            <div class="paragraph2" id="pykeparagraph">Pyke is the stronghold and seat of House Greyjoy, located on the island of the same name, which is one of the seven major Iron Islands. The castle is the regional capital of the Iron Islands as a whole. Pyke is an ancient stronghold and the cliff it was built on has been eroded by the sea leaving the towers standing on stone stacks. The towers are connected by swaying rope bridges. The rocky moss covered stone at its base is not suitable for ships landing so traffic to the island flows through the nearby harbor town Lordsport.</div>  
+		</div>
+            
+            <div id="casterlyrocktext" data-0="visibility:hidden;" data-2200="visibility:visible;" data-2300="visibility: hidden;">
+            <div  class="heading2" id="casterlyrockheading">casterly rock</div>
+            <div class="paragraph2" id="casterlyrockparagraph">Casterly Rock is the ancestral stronghold of House Lannister. It is located on the Western coast of Westeros on a rocky promontory overlooking the Sunset Sea. It overlooks the major city of Lannisport. A major goldmine is located under Casterly Rock. It is one of the most productive in the realm and provides House Lannister with their wealth.Lann the Clever swindled Casterly Rock from House Casterly.According to tradition, the castle was originally held by the House Casterly, the old Kings of the Rock. They were hoodwinked into giving the Rock to Lann the Clever, a legendary trickster and ancestor of House Lannister, thousands of years ago, during the Age of Heroes.</div>      
+		</div>
+            
+            <div id="kingslandingtext" data-0="visibility:hidden;" data-2600="visibility:visible;" data-2700="visibility: hidden;">
+            <div  class="heading" id="kingslandingheading">king's landing</div>
+            <div class="paragraph" id="kingslandingparagraph">King's Landing was founded by King Aegon I Targaryen - first of his name, King of the Andals and the First Men. He established a small wooden fort atop the hill - which was later named after him - where his ships first landed from Dragonstone, and used this as a base for his campaign to conquer the continent. Having achieved his goal, he established the new capital on the site of his original fort. The city expanded rapidly under his descendants. By the time of Robert's Rebellion, the city had a population of approximately half a million people.</div>   
+                
+            </div>
+            
+             <div id="dragonstonetext" data-0="visibility:hidden;" data-3000="visibility:visible;" data-3100="visibility: hidden;">
+            <div  class="heading" id="dragonstoneheading">dragonstone</div>
+            <div class="paragraph" id="dragonstoneparagraph">Dragonstone is the castle that stands upon the eponymous island located in Blackwater Bay. It is the ancestral seat of House Targaryen and was the stronghold of a cadet branch of House Baratheon.At the time the series begins, it is held for King Robert Baratheon by his brother, Lord Stannis. The Chamber of the Painted Table is inside the castle. The castle was built using advanced Valyrian stonemasonry techniques, long since lost.[1] As a result it has many exotic features unique in all of Westeros, including massive dragon-shaped gargoyles. The entire castle is dominated by dragon motifs and reliefs.</div>   
+                
+            </div>
+            
+             <div id="harrenhaltext" data-0="visibility:hidden;" data-3400="visibility:visible;" data-3500="visibility: hidden;">
+            <div  class="heading2" id="harrenhalheading">harrenhal</div>
+            <div class="paragraph2" id="harrenhalparagraph">Harrenhal is a huge castle, the largest one in all of Westeros, though it is also the most ill-omened. It is located on the northern shore of the Gods Eye lake at the heart of the Riverlands, south of the River Trident and northwest of King's Landing.</div>  
+		</div>
+        
+            <div id="riverruntext" data-0="visibility:hidden;" data-3600="visibility:visible;" data-3700="visibility: hidden;">
+            <div  class="heading" id="riverrunheading">riverrun</div>
+            <div class="paragraph" id="riverrunparagraph">Riverrun is the former seat of House Tully, which is now occupied by its new lawful rulers House Frey. It is a large castle located in the central-western part of the Riverlands. It sits at the point where the Red Fork of the Trident River is joined by its major tributary, the Tumblestone River flowing out of the west. In times of danger, sluice gates can be opened to flood a channel cut to the west of the castle, turning Riverrun into an island. Its walls rise sheer from the waters and its towers command the opposite shores, making assaulting it almost impossible without huge casualties.</div>   
+                
+            </div>
+        <script src="skrollr.js"></script>  
+ <script type="text/javascript">
+    var s = skrollr.init();
+    </script>
+
+ </body>
+ </html>

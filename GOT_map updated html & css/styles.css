@@ -1,0 +1,276 @@
+ body {
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 2355px;
+	 height: 8000px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #GradientMap1 
+{ 
+	
+	 position: absolute; 
+	 width: 2355px;
+	 height: 5000px;
+	 z-index:1;
+} 
+
+ #kingslandings 
+{ 
+	
+	 position: absolute; 
+	
+	 z-index:2;
+    
+} 
+
+ #highgarten 
+{ 
+	
+	 position: absolute; 
+	 width: 240px;
+	 height: 209px;
+	 z-index: 53;
+   
+} 
+
+ #casterlyRockcopy 
+{ 
+	
+	 position: absolute; 
+	
+	 z-index:4;
+  
+} 
+
+ #wall 
+{ 
+	 
+	 position: absolute; 
+	 width: 392px;
+	 height: 390px;
+	 z-index:50;
+   
+} 
+
+ #castleblack 
+{ 
+	 left: 1416px; 
+	 top: 244px; 
+	 position: absolute; 
+	 width: 205px;
+	 height: 163px;
+	 z-index:6;
+    visibility: hidden;
+} 
+
+ #thetwins 
+{ 
+	 
+	 position: absolute; 
+	 
+	 z-index:7;
+    
+} 
+
+ #sunspearcopy 
+{ 
+	 left: 1846px; 
+	 top: 4035px; 
+	 position: absolute; 
+	 width: 206px;
+	 height: 204px;
+	 z-index:8;
+    visibility: hidden;
+} 
+
+ #dragonstonecopy2 
+{ 
+	
+	 position: absolute; 
+	 width: 150px;
+    height: auto;
+	 z-index:9;
+   
+} 
+
+ #pykecopy 
+{ 
+	
+	 position: absolute; 
+	
+	 z-index:10;
+    
+} 
+
+ #harrenhal 
+{ 
+	
+	 position: absolute; 
+	 width: 276px;
+	 height: auto;
+	 z-index:11;
+    visibility: hidden;
+} 
+
+ #reverruncopy 
+{ 
+	 
+	 position: absolute; 
+	 width: 284px;
+	 height: auto;
+	 z-index:12;
+    
+} 
+.detailspane1{
+    position: fixed;
+    visibility: visible;
+    left: 0px;
+    top: 0px;
+    width: 420px;
+    height: 100%;
+   
+    z-index: 50;
+    background-color: black ;
+    opacity: 0.4;
+    
+}
+.detailspane2{
+    position: fixed;
+    visibility: visible;
+    left: 880px;
+    top: 0px;
+    width: 420px;
+    height: 100%;
+   
+    z-index: 50;
+    background-color: black ;
+    opacity: 0.4;
+    
+}
+.divider1{
+    position: fixed;
+    visibility: visible;
+    left: 20px;
+    top: 203px;
+    width: 370px;
+    height: 2px;
+    background-color: #fff;
+    z-index: 51;
+    opacity: 0.4;
+    
+}
+
+.divider2{
+    position: fixed;
+    visibility: visible;
+    left: 900px;
+    top: 203px;
+    width: 370px;
+    height: 2px;
+    background-color: #fff;
+    z-index: 51;
+    opacity: 0.4;
+    
+}
+
+.heading{
+    font-family: "Antipasto";
+    color: #fff;
+   
+   
+    opacity: 0.9;
+    
+    position: fixed;
+    z-index: 51;
+}
+
+#wallheading{
+     top: 115px;
+     left: 160px;
+font-size: 80px;
+}
+
+#twinsheading{
+     top: 115px;
+     left: 130px;
+font-size: 80px;
+}
+
+#kingslandingheading{
+     top: 115px;
+     left: 38px;
+font-size: 70px;
+}
+#dragonstoneheading{
+     top: 115px;
+     left: 45px;
+font-size: 66px;
+}
+#riverrunheading{
+     top: 115px;
+     left: 190px;
+font-size: 70px;
+}
+.heading2{
+    font-family: "Antipasto";
+    color: #fff;
+    top: 110px;
+    
+    opacity: 0.9;
+    
+    position: fixed;
+    z-index: 51;
+}
+#pykeheading{
+    left: 1110px;
+    font-size: 80px;
+}
+
+#casterlyrockheading{
+    left: 940px;
+    font-size: 65px;
+}
+#harrenhalheading{
+    left: 980px;
+    font-size: 75px;
+}
+
+
+
+.paragraph{
+  font-family: "Tw Cen MT";
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.3;
+    width : 360px;
+    left: 25px;
+    top: 230px;
+    opacity: 0.6;
+    position: fixed;
+    z-index: 52;   
+}
+.paragraph2{
+  font-family: "Tw Cen MT";
+    font-size: 18px;
+    color: #fff;
+    opacity: 0.3;
+    width : 360px;
+    left: 905px;
+    top: 230px;
+    opacity: 0.6;
+    position: fixed;
+    z-index: 52;   
+}
+
+
